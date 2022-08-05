@@ -1,19 +1,19 @@
-# hola mundo en assembly
+# Hola mundo en assembly
 
-## requerimientos
+## Requerimientos
 - nasm (Netwide Assembler)
 
 ```bash
 sudo apt install nasm
 ```
 
-## emsamblar codigo
+## Ensamblar codigo
 
 ```bash
 nasm -felf64 holamundo.asm
 ```
 
-## crear ejecutable usando linker de nasm
+## Crear ejecutable usando linker de nasm
 
 ```bash
 ld holamundo.o -o holamundo
